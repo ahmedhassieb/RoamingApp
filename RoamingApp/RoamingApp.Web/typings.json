@@ -1,0 +1,15 @@
+{
+  "name": "roamingapp",
+  "dependencies": {
+    "angular": "registry:dt/angular#1.6.0+20170117142612",
+    "angular-animate": "registry:dt/angular-animate#1.5.0+20161206185711",
+    "angular-sanitize": "registry:dt/angular-sanitize#1.3.0+20161206185711",
+    "angular-ui-bootstrap": "registry:dt/angular-ui-bootstrap#0.13.3+20161224095612",
+    "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20161222093745"
+  },
+  "globalDependencies": {
+    "angular-dialog-service": "registry:dt/angular-dialog-service#5.2.8+20160707221224",
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160726204056",
+    "jquery": "registry:dt/jquery#1.10.0+20170104155652"
+  }
+}
