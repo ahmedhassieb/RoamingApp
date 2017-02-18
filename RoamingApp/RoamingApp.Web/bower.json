@@ -39,6 +39,6 @@
     "signalr": "^2.2.1",
     "blockUI": "blockui#*",
     "angular-ui-jq": "^1.0.0",
-    "ui-load": "*"
+    "angular-ui-load": "^1.0.0"
   }
 }

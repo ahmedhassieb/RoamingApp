@@ -1,9 +1,8 @@
-(function () {
-    var controllerId = 'app.views.home';
+﻿(function () {
+    var controllerId = 'app.views.layout';
     angular.module('app').controller(controllerId, [
         '$scope', function ($scope) {
             var vm = this;
-            //Home logic...
-        }
-    ]);
+            //Layout logic...
+        }]);
 })();

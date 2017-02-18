@@ -1,4 +1,5 @@
-﻿(function () {
+﻿/// <reference path="../../typings/index.d.ts" />
+(function () {
     'use strict';
     
     var app = angular.module('app', [
@@ -18,7 +19,7 @@
         function($stateProvider, $urlRouterProvider) {
             $urlRouterProvider.otherwise('/');
 
-            if (abp.auth.hasPermission('Pages.Users')) {
+            if (abp.auth.isGranted('Pages.Users')) {
                 $stateProvider
                     .state('users', {
                         url: '/users',
@@ -28,7 +29,7 @@
                 $urlRouterProvider.otherwise('/users');
             }
 
-            if (abp.auth.hasPermission('Pages.Tenants')) {
+            if (abp.auth.isGranted('Pages.Tenants')) {
                 $stateProvider
                     .state('tenants', {
                         url: '/tenants',

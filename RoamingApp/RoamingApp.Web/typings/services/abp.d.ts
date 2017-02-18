@@ -26,16 +26,6 @@
 
     }
 
-    interface IGenericPromise<T> {
-        success(successCallback: (promiseValue: T) => any): any;
-        error(errorCallback: () => any): any;
-    }
-
-    interface IPromise {
-        success(successCallback: () => any): any;
-        error(errorCallback: () => any): any;
-    }
-
     interface IAbpSession {
 
         readonly userId?: number;
@@ -458,6 +448,15 @@
             function getToken(): string;
         }
 
+    }
+
+    interface IGenericPromise<T> {
+        success(successCallback: (promiseValue: T) => any): any;
+        error(errorCallback: () => any): any;
+    }
+    interface IPromise {
+        success(successCallback: () => any): any;
+        error(errorCallback: () => any): any;
     }
 
 }

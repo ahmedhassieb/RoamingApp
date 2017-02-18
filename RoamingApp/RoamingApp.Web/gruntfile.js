@@ -95,14 +95,11 @@ module.exports = function (grunt) {
                     "bower_components/angular-ui-router/release/angular-ui-router.min.js",
                     "bower_components/angular-bootstrap/ui-bootstrap.min.js",
                     "bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js",
+                    "bower_components/angular-ui-load/angular-ui-load.js",
+                   "bower_components/angular-ui-jq/angular-ui-jq.js",
                   //  "bower_components/angular-ui-utils/ui-utils.min.js",
-                 //   "bower_components/angular-ui-jq/jq.min.js",
                     "bower_components/angular-messages/angular-messages.min.js",
                     "bower_components/angular-moment/angular-moment.min.js",
-                    "bower_components/ui-load/dist/ui-jp.config.js",
-                    "bower_components/ui-load/dist/ui-jp.js",
-                    "bower_components/ui-load/dist/ui-load.js" ,
-                    "bower_components/angular-ui-jq/angular-ui-jq.js",
                     //"bower_components/fullcalendar/dist/fullcalendar.min.js",
                     //"bower_components/fullcalendar/dist/gcal.js",
                     //"bower_components/angular-bootstrap-calendar/dist/js/angular-bootstrap-calendar-tpls.min.js",
@@ -226,7 +223,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-contrib-concat");
     grunt.loadNpmTasks("grunt-contrib-uglify");
-    grunt.loadNpmTasks('grunt-concat-css');
+    // grunt.loadNpmTasks('grunt-concat-css');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');

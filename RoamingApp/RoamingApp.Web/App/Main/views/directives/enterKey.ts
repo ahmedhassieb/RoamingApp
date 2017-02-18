@@ -1,4 +1,4 @@
-/// <reference path="../../../../typings/index.d.ts" />
+﻿/// <reference path="../../../../typings/index.d.ts" />
 (function () {
     angular.module('app').directive('enterKey', [
         function () {
@@ -6,8 +6,9 @@
                 element.bind("keydown keypress", function (event) {
                     if (event.which === 13) {
                         scope.$apply(function () {
-                            // scope.$eval(attrs.enterKey);
+                           // scope.$eval(attrs.enterKey);
                         });
+
                         event.preventDefault();
                     }
                 });

@@ -4,14 +4,17 @@
   "description": "new npm file for roaming app",
   "main": "index.js",
   "dependencies": {
+    "@types/angular": "^1.6.2",
     "bower": "^1.8.0",
     "grunt": "^1.0.1",
     "npm": "^4.1.1",
     "typings": "^2.1.0"
   },
   "devDependencies": {
+    "@types/angular": "^1.6.2",
+    "@types/angular-ui-bootstrap": "^0.13.39",
+    "@types/jquery.blockui": "0.0.27",
     "grunt": "^1.0.1",
-    "grunt-concat-css": "^0.3.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",

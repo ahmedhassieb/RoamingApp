@@ -297,7 +297,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\Main\app.js" />
+    <TypeScriptCompile Include="App\Main\app.ts" />
     <Content Include="App\Main\images\abp-logo.png" />
     <Content Include="App\Main\main.css">
       <DependentUpon>main.less</DependentUpon>
@@ -305,18 +305,18 @@
     <Content Include="App\Main\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
-    <Content Include="App\Main\services\appSession.js" />
-    <Content Include="App\Main\views\directives\autoFocus.js" />
-    <Content Include="App\Main\views\directives\enterKey.js" />
-    <Content Include="App\Main\views\layout\header.js" />
-    <Content Include="App\Main\views\layout\layout.js" />
-    <Content Include="App\Main\views\home\home.js" />
-    <Content Include="App\Main\views\about\about.js" />
-    <Content Include="App\Main\views\users\createModal.js" />
-    <Content Include="App\Main\views\users\index.js" />
-    <Content Include="App\Main\views\tenants\createModal.js" />
-    <Content Include="App\Main\views\tenants\index.js" />
-    <Content Include="App\Main\_libconfig.js" />
+    <TypeScriptCompile Include="App\Main\services\appSession.ts" />
+    <TypeScriptCompile Include="App\Main\views\directives\autoFocus.ts" />
+    <TypeScriptCompile Include="App\Main\views\directives\enterKey.ts" />
+    <TypeScriptCompile Include="App\Main\views\layout\header.ts" />
+    <TypeScriptCompile Include="App\Main\views\layout\layout.ts" />
+    <TypeScriptCompile Include="App\Main\views\home\home.ts" />
+    <TypeScriptCompile Include="App\Main\views\about\about.ts" />
+    <TypeScriptCompile Include="App\Main\views\users\createModal.ts" />
+    <TypeScriptCompile Include="App\Main\views\users\index.ts" />
+    <TypeScriptCompile Include="App\Main\views\tenants\createModal.ts" />
+    <TypeScriptCompile Include="App\Main\views\tenants\index.ts" />
+    <TypeScriptCompile Include="App\Main\_libconfig.ts" />
     <Content Include="Common\Scripts\helpers.js" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\flags\famfamfam-flags.css" />
@@ -387,14 +387,6 @@
       <DependentUpon>Login.css</DependentUpon>
     </Content>
     <Content Include="typings.json" />
-    <Content Include="typings\globals\angular-dialog-service\typings.json" />
-    <Content Include="typings\globals\bootstrap\typings.json" />
-    <Content Include="typings\globals\jquery\typings.json" />
-    <Content Include="typings\modules\angular-animate\typings.json" />
-    <Content Include="typings\modules\angular-sanitize\typings.json" />
-    <Content Include="typings\modules\angular-ui-bootstrap\typings.json" />
-    <Content Include="typings\modules\angular-ui-router\typings.json" />
-    <Content Include="typings\modules\angular\typings.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -427,15 +419,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="typings\globals\angular-dialog-service\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\bootstrap\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\jquery\index.d.ts" />
     <TypeScriptCompile Include="typings\index.d.ts" />
-    <TypeScriptCompile Include="typings\modules\angular-animate\index.d.ts" />
-    <TypeScriptCompile Include="typings\modules\angular-sanitize\index.d.ts" />
-    <TypeScriptCompile Include="typings\modules\angular-ui-bootstrap\index.d.ts" />
-    <TypeScriptCompile Include="typings\modules\angular-ui-router\index.d.ts" />
-    <TypeScriptCompile Include="typings\modules\angular\index.d.ts" />
+    <TypeScriptCompile Include="typings\services\abp.d.ts" />
     <TypeScriptCompile Include="typings\services\apiservices.d.ts" />
   </ItemGroup>
   <PropertyGroup>

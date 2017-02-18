@@ -20,14 +20,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>RoamingApp</title>
+    <title>Roaming App</title>
 
     <link rel="shortcut icon" href="~/favicon.ico">
 
-    <link href="~/wwwroot/css/vendors.min.css" rel="stylesheet"></link>
-    <link href="/wwwroot/css/compile.css" rel="stylesheet"></link>
-    <link href="/wwwroot/css/app.min.css" rel="stylesheet"></link>
-    
+    <link href="~/wwwroot/css/vendors.min.css" rel="stylesheet" />
+    <link href="~/wwwroot/css/app.min.css" rel="stylesheet" />
+    <link href="~/wwwroot/css/compile.css" rel="stylesheet" />
+
+    @RenderSection("Styles", false)
     <script type="text/javascript">
         //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
         var abp = abp || {}; abp.appPath = '@ApplicationPath';
@@ -35,20 +36,21 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-     
+
     <![endif]-->
-    <script src="/wwwroot/lib/vendors.min.js"></script>
-    <script src="/wwwroot/lib/abp.min.js"></script>
+    <script src="~/wwwroot/lib/vendors.min.js"></script>
+    <script src="~/wwwroot/lib/abp.min.js"></script>
 
 
     <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
     <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
     <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
 
-    <script src="/wwwroot/lib/app.min.js"></script>
-    
+    <script src="~/wwwroot/lib/app.min.js"></script>
+
 </head>
 <body>
     @RenderBody()
+    @RenderSection("Scripts", false)
 </body>
 </html>

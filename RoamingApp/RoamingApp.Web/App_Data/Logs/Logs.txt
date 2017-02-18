@@ -2382,3 +2382,395 @@ DEBUG 2017-01-24 21:59:36,679 [35   ] Abp.Logging.LogHelper                    -
 DEBUG 2017-01-24 21:59:36,680 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2017-01-24 21:59:36,682 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2017-01-24 21:59:36,683 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-26 13:15:49,166 [26   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-26 13:15:49,221 [26   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-26 13:15:49,226 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,229 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,229 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,229 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,229 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,230 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,231 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,231 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,231 [26   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:49,235 [26   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-26 13:15:49,506 [26   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:15:49,506 [26   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:15:49,506 [26   ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:15:49,506 [26   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:15:49,769 [26   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:15:52,637 [26   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-26 13:15:52,645 [26   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-26 13:15:52,646 [26   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-26 13:15:52,647 [26   ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-01-26 13:15:52,648 [26   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-26 13:15:52,703 [26   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:15:52,745 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-26 13:15:52,745 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-26 13:15:52,750 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-26 13:15:52,750 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-01-26 13:15:52,751 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-01-26 13:15:52,751 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-26 13:15:52,751 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-26 13:15:52,751 [26   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-26 13:15:53,793 [26   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-26 13:15:53,794 [26   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-26 13:15:53,795 [26   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-26 13:15:53,796 [26   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-01-26 13:16:17,706 [24   ] ingApp.Web.Controllers.AccountController - The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Styles; Scripts".
+System.Web.HttpException (0x80004005): The following sections have been defined but have not been rendered for the layout page "~/Views/Shared/_Layout.cshtml": "Styles; Scripts".
+   at System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-01-26 13:17:27,308 [5    ] ingApp.Web.Controllers.AccountController - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at RoamingApp.Web.Controllers.AccountController.<GetLoginResultAsync>d__11.MoveNext() in E:\WorkSpace\RoamingApp\RoamingApp\RoamingApp.Web\Controllers\AccountController.cs:line 114
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at RoamingApp.Web.Controllers.AccountController.<Login>d__10.MoveNext() in E:\WorkSpace\RoamingApp\RoamingApp\RoamingApp.Web\Controllers\AccountController.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-01-26 13:19:23,943 [25   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-26 13:19:23,944 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:19:23,945 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:19:23,945 [25   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-26 13:19:27,447 [35   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-26 13:19:27,482 [35   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-26 13:19:27,495 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,500 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,500 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,501 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,501 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,502 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,502 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,502 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,503 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,503 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,503 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,503 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,504 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,504 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,504 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:27,509 [35   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-26 13:19:27,705 [35   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:19:27,706 [35   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:19:27,706 [35   ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:19:27,706 [35   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:19:28,209 [35   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:19:28,743 [35   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-26 13:19:28,750 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-26 13:19:28,752 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-26 13:19:28,753 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-01-26 13:19:28,754 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-26 13:19:28,810 [35   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:19:28,856 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-26 13:19:28,856 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-26 13:19:28,860 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-26 13:19:28,860 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-01-26 13:19:28,861 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-01-26 13:19:28,861 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-26 13:19:28,861 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-26 13:19:28,861 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-26 13:19:30,013 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-26 13:19:30,015 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-26 13:19:30,016 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-26 13:19:30,017 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-26 13:24:25,185 [15   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-26 13:24:25,187 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:24:25,188 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:24:25,188 [15   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-26 13:24:27,960 [35   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-26 13:24:27,983 [35   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-26 13:24:27,991 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,994 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,994 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,994 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,994 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,995 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,995 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,996 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,996 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,996 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,996 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,997 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,997 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,997 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:27,997 [35   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:28,001 [35   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-26 13:24:28,250 [35   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:24:28,250 [35   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:24:28,251 [35   ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:24:28,251 [35   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 13:24:28,600 [35   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 13:24:29,180 [35   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-26 13:24:29,191 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-26 13:24:29,194 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-26 13:24:29,198 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-01-26 13:24:29,199 [35   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-26 13:24:29,284 [35   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:24:29,336 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-26 13:24:29,336 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-26 13:24:29,341 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-26 13:24:29,342 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-01-26 13:24:29,342 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-01-26 13:24:29,342 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-26 13:24:29,343 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-26 13:24:29,343 [35   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-26 13:24:30,413 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-26 13:24:30,414 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-26 13:24:30,415 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-26 13:24:30,417 [35   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-26 13:45:35,608 [20   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-26 13:45:35,612 [20   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:45:35,613 [20   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 13:45:35,613 [20   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-26 14:46:09,198 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-26 14:46:09,215 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-26 14:46:09,221 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:09,231 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-26 14:46:09,352 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:46:09,352 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:46:09,352 [1    ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:46:09,352 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:46:09,615 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:46:10,051 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-26 14:46:10,060 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-26 14:46:10,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-26 14:46:10,073 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-01-26 14:46:10,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-26 14:46:10,127 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 14:46:10,196 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-26 14:46:10,196 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-26 14:46:10,200 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-26 14:46:10,200 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-01-26 14:46:10,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-01-26 14:46:10,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-26 14:46:10,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-26 14:46:10,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-26 14:46:11,241 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-26 14:46:11,242 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-26 14:46:11,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-26 14:46:11,244 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-26 14:47:28,972 [19   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-26 14:47:28,975 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 14:47:28,976 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 14:47:28,977 [19   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-26 14:47:34,048 [25   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-26 14:47:34,072 [25   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-26 14:47:34,079 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,083 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,083 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,083 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,084 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,085 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,086 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,086 [25   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,090 [25   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-26 14:47:34,307 [25   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:47:34,307 [25   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:47:34,307 [25   ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:47:34,307 [25   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-26 14:47:34,570 [25   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-26 14:47:34,992 [25   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-26 14:47:35,000 [25   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-26 14:47:35,001 [25   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-26 14:47:35,003 [25   ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-01-26 14:47:35,004 [25   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-26 14:47:35,057 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 14:47:35,102 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-26 14:47:35,102 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-26 14:47:35,106 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-26 14:47:35,106 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-01-26 14:47:35,107 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-01-26 14:47:35,107 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-26 14:47:35,107 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-26 14:47:35,107 [25   ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-26 14:47:36,144 [25   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-26 14:47:36,145 [25   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-26 14:47:36,146 [25   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-26 14:47:36,149 [25   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-01-26 14:49:27,274 [7    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-26 14:49:27,276 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 14:49:27,278 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-26 14:49:27,278 [7    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-01-31 09:27:56,139 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-01-31 09:27:56,175 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-01-31 09:27:56,180 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:56,189 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-01-31 09:27:56,500 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-31 09:27:56,500 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-31 09:27:56,500 [1    ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-31 09:27:56,500 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-01-31 09:27:56,765 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-01-31 09:27:57,519 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-01-31 09:27:57,554 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-01-31 09:27:57,555 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-01-31 09:27:57,557 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-01-31 09:27:57,557 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-01-31 09:27:57,609 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-31 09:27:57,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-01-31 09:27:57,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-01-31 09:27:57,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-01-31 09:27:57,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-01-31 09:27:57,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-01-31 09:27:57,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-01-31 09:27:57,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-01-31 09:27:57,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-01-31 09:27:58,680 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-01-31 09:27:58,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-01-31 09:27:58,682 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-01-31 09:27:58,684 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-01-31 09:28:04,844 [6    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 100
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 67
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass3.<Run>b__1(Task t)
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo) in D:\Halil\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelperExtensions.cs:line 28
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Mvc\Web\Mvc\Authorization\AbpMvcAuthorizeFilter.cs:line 48
+DEBUG 2017-01-31 09:48:46,584 [40   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-01-31 09:48:46,588 [40   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-31 09:48:46,589 [40   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-01-31 09:48:46,589 [40   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-06 17:48:37,918 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-06 17:48:37,944 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-06 17:48:37,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Web.RoamingAppWebModule, RoamingApp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppDataModule, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppCoreModule, RoamingApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.RoamingAppApplicationModule, RoamingApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RoamingApp.Api.RoamingAppWebApiModule, RoamingApp.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:37,953 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-06 17:48:38,276 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-06 17:48:38,277 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-06 17:48:38,277 [1    ] o.Configuration.LanguageManagementConfig - Converted RoamingApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-06 17:48:38,277 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-06 17:48:38,647 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: RoamingApp.EntityFramework.RoamingAppDbContext, RoamingApp.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-06 17:48:39,377 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-06 17:48:39,417 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-06 17:48:39,430 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-06 17:48:39,432 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: RoamingApp
+DEBUG 2017-02-06 17:48:39,443 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-06 17:48:39,520 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-06 17:48:39,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-02-06 17:48:39,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-06 17:48:39,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-06 17:48:39,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.CreateUserInput
+DEBUG 2017-02-06 17:48:39,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Users.Dto.UserListDto
+DEBUG 2017-02-06 17:48:39,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-06 17:48:39,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-06 17:48:39,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RoamingApp.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-06 17:48:41,036 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-06 17:48:41,037 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-06 17:48:41,040 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-06 17:48:41,041 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'RoamingApp.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-06 20:48:38,476 [77   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-06 20:48:38,479 [77   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-06 20:48:38,482 [77   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-06 20:48:38,483 [77   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
